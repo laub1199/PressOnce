@@ -22,7 +22,7 @@
     "express": "^4.16.4",
     "express-fileupload": "^1.1.1-alpha.3",
     "express-session": "^1.16.1",
-    "mongoose": "^5.5.4",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "node-msoffice-pdf": "0.0.7",
     "passport": "^0.4.0",
