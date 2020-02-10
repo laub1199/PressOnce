@@ -1,0 +1,155 @@
+input {
+  text-align: center;
+}
+.title {
+    width: 80px;
+  }
+
+  .sort { 
+    width: 20px;
+  }
+
+  .needScroll {
+    margin: 0;
+    height: 600px;
+    width: 100%;
+    overflow: auto;
+  }
+h1 {
+    text-align: center;
+  }
+
+  #inputResize input{
+    margin-top: 10px;
+  }
+  #block1 {
+    display: inline;
+    float: left;
+  }
+  #block2 {
+    display: inline;
+    float: left;
+    clear:right
+  }
+  #logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+  }
+  #AOWForm {
+    text-align: left;
+  }
+  
+  #msgContent {
+	  line-height: 2.0;
+  }
+
+  #ErrortMsg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    padding-top: 150px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+
+  #ErrorMsgBox {
+    background-color: rgb(242, 248, 253);
+    margin: auto;
+    padding: 40px;
+    width: 30%;
+    height: 20%;
+    border: 2px solid grey;
+  }
+
+  #closeBtn { 
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    font-size: 200%;
+  }
+.itemTable {
+    text-align: left;
+  }
+  #itemListContainer input{
+    border: none;
+    background-color: white;
+  }
+  .description{
+    width: 800px;
+  }
+  .unit {
+    width: 150px;
+  }
+  .price {
+    width: 50px;
+  }
+table{
+    width: 100%;
+    border-radius: 10%}
+
+tr:nth-child(odd) {background-color: #c5afaf;
+  border-radius: 30%;}
+tr:hover {background-color: #ddd;}
+th{
+  text-align: center;
+  background-color:rgba(124, 179, 216, 0.74);
+  color: rgba(255, 255, 255, 0.952);
+}
+
+* {
+   font-family: myFirstFont;
+}
+.tabs:hover{
+  background-color: #ddd;
+}
+input{
+  border-radius:30px;
+}
+
+.button {
+  background-color: rgba(98, 98, 138, 0.3)
+  border none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 40%;
+}
+.AowTable {
+      text-align: center;
+  }
+  
+
+#HomePageLogo {
+    height: 9%;
+    width: 9%;
+  }
+  span {
+    font-size: 10%;
+    color: rgba(225, 240, 255, 0.801);
+  }
+  #loginForm {
+    background: transparent;
+    margin-top: 10px;
+  }
+  #resize {
+    border-radius: 5%;
+    text-align: center;
+    margin-top: 6%;
+    background-color: white;
+  }
+  .infoTable{
+    border: none;
+  }
+  td{
+    background-color: rgba(210, 235, 238, 0.897);
+  }

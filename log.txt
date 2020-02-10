@@ -1,0 +1,26 @@
+29/03/2019 00:00 v_0.1:
+	Changes:
+		1.Edited admin page
+		2.With generating excel and pdf in Order View
+	
+	Bugs:
+		1.sorting button need to click twice
+		2.excel template not fit printing
+
+03/04/2019 16:23 v_0.2:
+	Changes:
+		1.Added Aow generater for atg and ibi
+			1.1.With 38000 limitation
+			1.2.Auto gen Aow No
+		2.Added Aow record download page in admin page
+	Bugs:
+		1.Floating point error
+		2.May have unexpected display error
+	Debugged:		
+		1.Done
+		2.Done
+	Remark:
+		1. insert db.unitpriceatgs.insert({workItem: ' ', description: ' ', unit: ' ', type: ' ', price: 0}) before other statement
+		2. insert db.unitpriceibis.insert({workItem: ' ', description: ' ', unit: ' ', type: ' ', price: 0}) before other statement
+	
+	insert db.aowschemas.insert({fileName: ' ', AOWNo: ' ', orderNo: ' ', BSN: ' ', amount: 0, team: 'ATG', user: ' ', includedInInvoice: 'false'});
